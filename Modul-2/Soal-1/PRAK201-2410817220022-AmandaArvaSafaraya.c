@@ -18,5 +18,13 @@ int main() {
     printf("No. HP                  : ");
     fgets(no_hp, sizeof(no_hp), stdin);
 
+    printf("Nama                    : %s", nama);
+    printf("NIM                     : %s", nim);
+    printf("Kelas Paralel           : %s", kelas);
+    printf("Tempat/Tanggal Lahir    : %s", ttl);
+    printf("Alamat                  : %s", alamat);
+    printf("Hobby                   : %s", hobby);
+    printf("No. HP                  : %s", no_hp);
+
     return 0;
 }
